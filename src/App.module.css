@@ -26,6 +26,10 @@
   width: 100%;
 }
 
+.textInput:focus{
+  color: var(--gray-100)
+}
+
 .todoForm button[type="submit"] {
     background-color: var(--blue-600);
     color: var(--gray-100);
