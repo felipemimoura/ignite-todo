@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  margin-top: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskCount {
+  font-size: 1.4rem;
+  color: var(--blue-300);
+  font-weight: 700;
+  line-height: 1.7rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.taskInfo {
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 100%;
+  color: var(--gray-200);
+  font-size: 1.2rem;
+}
+
+.taskCompleted {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--purple-300);
+  display: flex;
+  line-height: 1.7rem;
+  gap: 0.8rem;
+}
+
+.taskCompletedInfo {
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  color: var(--gray-200);
+  font-size: 1.2rem;
+}
+
+.main {
+  width: 100%;
+  margin-top: 2.4rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1.6rem;
+
+  border-radius: 8px;
+
+  background-color: var(--gray-400);
+
+}
+
+.listItem button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  border-radius: 2px;
+  cursor: pointer;
+
+  transition: color 0.2s;
+}
+
+.listItem button:hover {
+  color: var(--red-500);
+}
+
+.itemCompleted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--purple-500);
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  color: var(--gray-100);
+
+  cursor: pointer;
+}
+
+.itemNotCompleted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--blue-300);
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+
+.itemContent{
+  color: var(--gray-100)
+}
+
+.itemContentCompleted{
+ text-decoration: line-through;
+ color: var(--gray-300)
+}
